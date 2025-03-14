@@ -1,0 +1,95 @@
+@tailwind components;
+
+.inventroyM{
+  display: flex;
+  margin: 40px auto;
+  .inventroyML{
+    width: 1.625rem;
+    height: 455px;
+    flex-shrink:0;
+    position: relative;
+    img{
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      height: 100%;
+      width: auto;
+    }
+    h4,p{
+      margin-left: 20px;
+    }
+    h4{
+      font-size: .25rem;
+      font-weight: 400;
+      margin-top: 20px;
+    }
+    p{
+      font-size: 16px;
+      color: #000;
+      letter-spacing: 2px;
+      font-weight: bold;
+      line-height: 30px;
+    }
+  }
+  .tableWrap{
+    display: flex;
+    width: calc(1400px - 1.625rem);
+    overflow-x: auto;
+    .inventroyMR{
+      width: 570px;
+      table-layout: fixed;
+      thead{
+        tr{
+          th{
+            font-size: 20px;
+            text-align: left;
+            height: 40px;
+            line-height: 40px;
+            border: 1px solid #ddd;
+            color: #333;
+            padding-left: 10px;
+          }
+        }
+      }
+      tbody{
+        height: calc(455px - 45px);
+        tr{
+          font-size: 18px;
+          width: 570px;
+          td{
+            color: #333;
+            border: 1px solid #ddd;
+            padding-left: 10px;
+            font-size: 16px;
+            span{
+              font-size: 18px;
+            }
+            a{
+              font-size: 18px;
+              &:hover{
+                color: #f34234;
+                border-bottom: 1px solid #f34234;
+              }
+            }
+            p{
+              i{
+                font-style: normal;
+                font-size: 18px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  
+}
+@media (max-width:680px){
+  .inventroyM{
+    .inventroyML{
+      width: 160px;
+    }
+  }
+}

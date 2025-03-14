@@ -1,0 +1,430 @@
+@tailwind components;
+
+.process1{
+  display: flex;
+  h6{
+    font-size: 24px;
+    color: #0D09BA;
+  }
+  .process1L{
+    margin-right: .25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    p{
+      text-align: justify;
+      font-size: .1125rem;
+      color: #333;
+      line-height: .225rem;
+    }
+  }
+  .imgBox{
+    display: flex;
+    justify-content: space-between;
+    width: calc(100%);
+    margin-top: 20px;
+    img{
+      width: 30%;
+    }
+  }
+}
+.process1B{
+  width: 100%;
+  background: url('https://www.yangdong.co:443/zhongku/process/bg1.png');
+  .process1BC{
+    color: #fff;
+    display: flex;
+    margin-top: 40px;
+    padding: 20px 0;
+    .process1BCL{
+      margin-right: .5rem;
+      b,p{
+        font-weight: 500;
+        text-align: left;
+        display: block;
+      }
+      b{
+        font-size: .225rem;
+        line-height: .3rem;
+        position: relative;
+        margin-bottom: 20px;
+        &::after{
+          position: absolute;
+          left: 0;
+          bottom: -10px;
+          content:'';
+          width: 100px;
+          height: 4px;
+          background-color: #fff;
+        }
+      }
+      p{
+        font-size: 24px;
+      }
+    }
+    .process1BCR{
+      display: flex;
+      text-align: center;
+      flex: auto;
+      justify-content: space-between;
+      div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        img{
+          margin: .0625rem auto;
+        }
+        span{
+          display: block;
+          font-size: .1875rem;
+        }
+        p{
+          font-size: .1125rem;
+        }
+      }
+    }
+  }
+}
+.process2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 4.125rem;
+  .process2C{
+    width: 49%;
+    margin-bottom: .25rem;
+    position: relative;
+    img{
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 33;
+      width: 1.875rem;
+      height: 1.8938rem;
+      // margin-right: auto;
+      // float: left;
+    }
+    .processtext{
+      position: absolute;
+      right: 0;
+      width: calc(100% - 1.65rem);
+      height: 1.8938rem;
+      background-color: #eee;
+      h6{
+        text-align: right;
+        font-size: 30px;
+        color: #016DCF;
+        font-weight: bold;
+        span{
+          padding: 3px 16px;
+          text-align: center;
+          margin-left: 5px;
+          background: linear-gradient(0deg, #3661F7 0%, #0D09BA 100%);
+          border-radius: .1875rem 0px .1875rem 0px;
+          color: #fff;
+        }
+      }
+      b,p{
+        color: #333333;
+        width: 100%;
+        padding:  0 10px;
+        text-align: right;
+      }
+      b{
+        font-size: 16px;
+        display: block;
+        font-weight: normal;
+        margin-top: 10px;
+      }
+      p{
+        font-size: .1125rem;
+        margin: .0625rem 0px;
+        text-align: justify;
+        span{
+          color: #016DCF;
+          font-size:20px;
+          margin-right: .0625rem;
+        }
+      }
+    }
+  }
+  // .process2CL{
+  //   div{
+  //     margin-left: .5rem;
+  //     h6,b{
+  //       text-align: right;
+  //     }
+  //     h6{
+  //       span{
+  //         margin-left: .125rem;
+  //       }
+  //     }
+  //   }
+  // }
+  // .process2CR{
+  //   div{
+  //     margin-right: .5rem;
+  //     h6,b{
+  //       text-align: left;
+  //     }
+  //     h6{
+  //       span{
+  //         margin-right: .125rem;
+  //       }
+  //     }
+  //   }
+  // }
+}
+.process2F{
+  background: url('https://www.yangdong.co:443/zhongku/process/bg3.png')no-repeat;
+  background-size: cover;
+  margin-top: 20px;
+  .process2FC{
+    padding: 40px 0;
+    p{
+      font-size: 18px;
+      color: #fff;
+      line-height: 30px;
+    }
+    .process2FItemC{
+      margin-top: 40px;
+      display:grid;
+      grid-template-columns: repeat(5,1fr);
+      column-gap: 20px;
+      row-gap: 20px;
+      .process2FItem{
+        background-color: #fff;
+        p{
+          font-size: 14px;
+          color: #111;
+          padding: 0 10px;
+          text-align: justify;
+        }
+      }
+    }
+  }
+}
+.process3{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  column-gap: .25rem;
+  row-gap: .25rem;
+  .videoItem{
+    box-shadow: 0px 3px 10px 2px rgba(35,24,21,0.1);
+  }
+  .videoTitle{
+    padding:10px;
+    text-align:left;
+    font-size:24px;
+    font-weight:bold;
+    border:1px solid #efefef;
+    text-align:center;
+  }
+}
+.process4{
+  background: url('https://www.yangdong.co:443/zhongku/process/bg2.png');
+  padding-bottom: 40px;
+  .process4C{
+    display: flex;
+    justify-content: space-between;
+    .process4CI{
+      background: linear-gradient(30deg, #3661F7 0%, #0D09BA 100%);
+      border-radius: 6px;
+      padding: 10px;
+      position: relative;
+      margin: 5px 0;
+      &::after{
+        content: '';
+        position: absolute;
+        top: 50%;
+        right: -0.375rem;
+        width: .2rem;
+        height: .2rem;
+        background: url('https://www.yangdong.co:443/zhongku/process/icon.png');
+        transform: translateY(-25%);
+        background-size: .2rem;
+      }
+      &:last-child{
+        &::after{
+          display: none;
+        }
+      }
+      p{
+        width: .625rem;
+        text-align: center;
+        font-weight: 500;
+        font-size: .225rem;
+        color: #FFFFFF;
+      }
+      
+    }
+  }
+}
+@media (max-width:1200px){
+  .process2{
+      height: 8.25rem;
+    .process2C{
+      width: 100%;
+      .processtext{
+        p{
+          font-size: 16px;
+          text-align: right;
+        }
+      }
+    }
+  }
+}
+@media (max-width:800px){
+  .process1{
+    .process1L{
+      margin-right: 10px;
+    }
+  }
+  .process1B{
+    .process1BC{
+      .process1BCL{
+        margin-right:20px
+      }
+    }
+  }
+  .process2{
+    .process2C{
+      div{
+        h6{
+          font-size: 20px;
+          span{
+            width: 60px;
+            height: 40px;
+            line-height: 40px;
+          }
+        }
+        b{
+          font-size: 16px;
+          margin-top: .0625rem;
+        }
+        p{
+          font-size: 14px;
+          margin: 5px 0;
+        }
+      }
+    }
+    .process2CL{
+      div{
+        margin-left: 20px;
+      }
+    }
+    .process2CR{
+      div{
+        margin-right: 20px;
+      }
+    }
+  }
+  .process2F{
+    .process2FC{
+      .process2FItemC{
+        grid-template-columns: repeat(3,1fr);
+      }
+    }
+  }
+}
+@media (max-width:700px){
+  .process3{
+    grid-template-columns: repeat(2,1fr);
+  }
+  .process4{
+    .process4C{
+      flex-wrap: wrap;
+      justify-content: center;
+      .process4CI{
+        margin-right: 40px;
+        &::after{
+          right: -30px;
+        }
+      }
+    }
+  }
+}
+@media (max-width:670px){
+  .process1{
+    .process1R{
+      display: none;
+    }
+  }
+  .process1B{
+    .process1BCL{
+      display: none;
+    }
+    .process1BCR{
+      div{ 
+        img{
+          width: 60px;
+        }
+        span{
+          font-size: .1125rem;
+        }
+        p{
+          font-size: .0875rem;
+        }
+      }
+    }
+  }
+  .process2{
+    .process2C{
+      img{
+        width: 180px;
+        height: auto
+      }
+      .processtext{
+        width: calc(100% - 158px);
+        height: 181px;
+        h6{
+          font-size: 18px;
+        }
+        b{
+          display: none;
+        }
+        p{
+          text-align: justify;
+          font-size: 14px;
+          margin: 0;
+        }
+      }
+    }
+  }
+  .process2F{
+    .process2FC{
+      .process2FItemC{
+        grid-template-columns: repeat(2,1fr);
+      }
+    }
+  }
+}
+@media (max-width:570px){
+  .process1B{
+    .process1BCR{
+      flex-wrap: wrap;
+      justify-content:center!important;
+      div{
+        width: 33%;
+        margin: 5px 0;
+      }
+    }
+  }
+  .process3{
+    grid-template-columns: repeat(1,1fr);
+  }
+  .process4{
+    .process4C{
+      .process4CI{
+        margin:  5px 5px;
+        &::after{
+          display: none;
+        }
+        p{
+          width: 40px;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}

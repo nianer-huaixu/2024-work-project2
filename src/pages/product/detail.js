@@ -16,7 +16,7 @@ function ProductDetail(props){
 	const lastDigitIndex = product.search(/\d(?=\D*$)/);
 	let imgListArr = []
 	for(let i = 1;i<=data.amount;i++){
-		imgListArr.push(`https://www.yangdong.co:443/${product.slice(lastDigitIndex + 1)}/${product.slice(0, lastDigitIndex + 1)}/${i}.jpg`)
+		imgListArr.push(`https://www.yangdong.co:8443/${product.slice(lastDigitIndex + 1)}/${product.slice(0, lastDigitIndex + 1)}/${i}.jpg`)
 	}
 	// console.log(imgListArr);
 	const [currImg,setImg] = useState(0)

@@ -10,7 +10,7 @@ const data = [
     ],
     prec:'',
     next:'到底是什么因素影响了7015铝棒的价格',
-    img:'https://www.yangdong.co:443/zhongku/about/cyc0.png'
+    img:'https://www.yangdong.co:8443/zhongku/about/cyc0.png'
   },
   {
     id:1,
@@ -27,7 +27,7 @@ const data = [
     ],
     prec:'7075铝管无缝铝管的生产和注意事项大家知道多少？',
     next:'今天来看一下锻打7075铝棒的性能特点及其使用',
-    img:'https://www.yangdong.co:443/zhongku/about/cyc1.png'
+    img:'https://www.yangdong.co:8443/zhongku/about/cyc1.png'
   },
   {
     id:2,
@@ -40,7 +40,7 @@ const data = [
     ],
     prec:'到底是什么因素影响了7075铝棒的价格',
     next:'今天咱们来看看处理铝板不着色的原因及方法',
-    img:'https://www.yangdong.co:443/zhongku/about/cyc2.png'
+    img:'https://www.yangdong.co:8443/zhongku/about/cyc2.png'
   },{
     id:3,
     title:'今天咱们来看看处理铝板不着色的原因及方法',
@@ -57,7 +57,7 @@ const data = [
     ],
     prec:'今天来看一下锻打7075铝棒的性能特点及其使用',
     next:'铝及铝合金性能的突出特点',
-    img:'https://www.yangdong.co:443/zhongku/about/cyc3.png'
+    img:'https://www.yangdong.co:8443/zhongku/about/cyc3.png'
   },{
     id:4,
     title:'铝及铝合金性能的突出特点',
@@ -94,7 +94,7 @@ const data = [
     ],
     prec:'今天咱们来看看处理铝板不着色的原因及方法',
     next:'铝型材精益管表面的凹凸波纹是如何产生的以及消除方法',
-    img:'https://www.yangdong.co:443/zhongku/about/cyc4.png'
+    img:'https://www.yangdong.co:8443/zhongku/about/cyc4.png'
   }
   ,{
     id:5,
@@ -122,7 +122,7 @@ const data = [
     ],
     prec:'铝及铝合金性能的突出特点',
     next:'5052铝板实现汽车“高能耗”向“低排放”的转变',
-    img:'https://www.yangdong.co:443/zhongku/about/cyc5.png'
+    img:'https://www.yangdong.co:8443/zhongku/about/cyc5.png'
   },{
     id:6,
     title:'5052铝板实现汽车“高能耗”向“低排放”的转变',
@@ -133,7 +133,7 @@ const data = [
     ],
     prec:'铝型材精益管表面的凹凸波纹是如何产生的以及消除方法',
     next:'无缝铝管和组合模挤压铝管有何区别？',
-    img:'https://www.yangdong.co:443/zhongku/about/cyc6.png'
+    img:'https://www.yangdong.co:8443/zhongku/about/cyc6.png'
   },{
     id:7,
     title:'无缝铝管和组合模挤压铝管有何区别？',
@@ -147,7 +147,7 @@ const data = [
     ],
     prec:'5052铝板实现汽车“高能耗”向“低排放”的转变',
     next:'6061合金铝板在汽车底盘的应用',
-    img:'https://www.yangdong.co:443/zhongku/about/cyc7.png'
+    img:'https://www.yangdong.co:8443/zhongku/about/cyc7.png'
   },{
     id:8,
     title:'6061合金铝板在汽车底盘的应用',
@@ -161,7 +161,7 @@ const data = [
     ],
     prec:'无缝铝管和组合模挤压铝管有何区别？',
     next:'',
-    img:'https://www.yangdong.co:443/zhongku/about/cyc8.png'
+    img:'https://www.yangdong.co:8443/zhongku/about/cyc8.png'
   }
 ]
 

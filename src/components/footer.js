@@ -58,7 +58,7 @@ export default function Footer(){
           江苏中库铝业集团有限公司 版权所有
           <br/>
           <a href='https://beian.mps.gov.cn/#/query/webSearch' target='_blank'>苏公网安备32059002005041号</a> &nbsp;
-          <a href='https://beian.miit.gov.cn' target='_blank'>苏ICP备2022015057号-1</a>
+          <a href='https://beian.miit.gov.cn' target='_blank'>苏ICP备19073843号-1</a>
         </p>
         <div className='footerL-r'>
           {Item}
@@ -117,10 +117,15 @@ export default function Footer(){
           <br/>
           <a href='https://beian.mps.gov.cn/#/query/webSearch' target='_blank'>苏公网安备32059002005041号</a> 
           <br/>
-          <a href='https://beian.miit.gov.cn' target='_blank'>苏ICP备2022015057号-1</a>
+          <a href='https://beian.miit.gov.cn' target='_blank'>苏ICP备19073843号-1</a>
         </p>
       </div>
     </div>
+    <p className='copyright-b'>
+      江苏中库铝业集团有限公司 版权所有 &nbsp;
+      <a href='https://beian.mps.gov.cn/#/query/webSearch' target='_blank'>苏公网安备32059002005041号 </a>
+      <a href='https://beian.miit.gov.cn' target='_blank'>苏ICP备19073843号-1</a>
+    </p>
     <div className='mobile-footer'>
       <div>
         <img src={common.imgURL + 'footer/home.png'} alt="首页"/>

@@ -80,7 +80,7 @@ export default function Products(){
                       return <div key={i} className={styles.productSeriseItem}>
                         <div className={styles.imgWrap}>
                           <Link href={{pathname:'/product/detail',query:{detail:item.name+data.title.c_t}}}>
-                            <img src={`https://www.yangdong.co:443/${data.title.c_t}/${item.name}/1.jpg`}/>
+                            <img src={`https://www.yangdong.co:8443/${data.title.c_t}/${item.name}/1.jpg`}/>
                           </Link>
                         </div>
                         <div className={styles.itemIntro}>

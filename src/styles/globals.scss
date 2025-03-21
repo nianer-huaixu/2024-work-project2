@@ -74,7 +74,7 @@ header{
       .cate{
         margin-left:20px;
         padding-left: .15rem;
-        background: url('https://www.yangdong.co:443/zhongku/header/category.png') no-repeat left center;
+        background: url('https://www.yangdong.co:8443/zhongku/header/category.png') no-repeat left center;
         background-size: .1125rem;
         color: #000;
         font-weight: 700;
@@ -213,7 +213,7 @@ header{
   width:.375rem;
   height:.375rem;
   border-radius:.1875rem;
-  background: #fff url('https://www.yangdong.co:443/zhongku/header/arrow1.svg')no-repeat center;
+  background: #fff url('https://www.yangdong.co:8443/zhongku/header/arrow1.svg')no-repeat center;
   position:fixed;
   right:.5rem;
   bottom:.5rem;
@@ -249,7 +249,7 @@ header{
       padding-left: .125rem;
       font-weight: bold;
       font-size: .1125rem;
-      background: url('https://www.yangdong.co:443/zhongku/header/category.png') no-repeat 0px center;
+      background: url('https://www.yangdong.co:8443/zhongku/header/category.png') no-repeat 0px center;
       background-size: .1rem;
     }
     ul{
@@ -452,7 +452,7 @@ footer{
             p{
               font-size: 14px;
               &:nth-child(2){
-                background: url('https://www.yangdong.co:443/zhongku/footer/footer-icon.png')no-repeat left center;
+                background: url('https://www.yangdong.co:8443/zhongku/footer/footer-icon.png')no-repeat left center;
               }
               a{
                 padding-left: 26px;
@@ -589,6 +589,16 @@ footer{
         top: 0;
         left: 0;
       }
+    }
+  }
+  .copyright-b{
+    color: #ddd;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 4px;
+    display: none;
+    a{
+      font-size: 14px;
     }
   }
 }
@@ -790,10 +800,18 @@ footer{
       .footerL{
         width: 100%;
         margin-right: 0;
+        // .copyright{
+        //   display: block;
+        //   background-color: #01509c;
+        //   text-align: center;
+        // }
       }
       .footerR{
         display: none;
       }
+    }
+    .copyright-b{
+      display: block;
     }
   }
   .banner-container{
@@ -949,7 +967,7 @@ footer{
   }
   footer{
     .footerWrap{
-      padding-bottom: 30px;
+      padding-bottom: 10px;
       .footerL{
         flex-direction: column;
         text-align: justify;
@@ -966,11 +984,6 @@ footer{
             margin: 10px;
           }
         }
-        .copyright{
-          display: block;
-          background-color: #01509c;
-          text-align: center;
-        }
         .footerL-r{
           display: none;
         }
@@ -978,6 +991,13 @@ footer{
       .footerR{
         display: none;
       }
+    }
+    .copyright-b{
+      display: flex;
+      flex-direction: column;
+      text-wrap: wrap;
+      height: 80px;
+      margin-bottom: 20px;
     }
     .mobile-footer{
       display: flex!important;

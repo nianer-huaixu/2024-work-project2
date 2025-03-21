@@ -18,14 +18,14 @@ function IndexMapComponent() {
 					zoom: 5.1, // 初始化地图级别
 					center: [104.04306,32.0282920], // 初始化地图中心点位置
 				});
-				const icon = 'https://www.yangdong.co:443/zhongku/index/map.png'
-				const icon1 = 'https://www.yangdong.co:443/zhongku/index/map1.png'
-				const icon2 = 'https://www.yangdong.co:443/zhongku/index/map2.png'
-				const icon3 = 'https://www.yangdong.co:443/zhongku/index/map3.png'
-				const icon4 = 'https://www.yangdong.co:443/zhongku/index/map4.png'
-				const icon5 = 'https://www.yangdong.co:443/zhongku/index/map5.png'
-				const icon6 = 'https://www.yangdong.co:443/zhongku/index/map6.png'
-				const icon7 = 'https://www.yangdong.co:443/zhongku/index/map7.png'
+				const icon = 'https://www.yangdong.co:8443/zhongku/index/map.png'
+				const icon1 = 'https://www.yangdong.co:8443/zhongku/index/map1.png'
+				const icon2 = 'https://www.yangdong.co:8443/zhongku/index/map2.png'
+				const icon3 = 'https://www.yangdong.co:8443/zhongku/index/map3.png'
+				const icon4 = 'https://www.yangdong.co:8443/zhongku/index/map4.png'
+				const icon5 = 'https://www.yangdong.co:8443/zhongku/index/map5.png'
+				const icon6 = 'https://www.yangdong.co:8443/zhongku/index/map6.png'
+				const icon7 = 'https://www.yangdong.co:8443/zhongku/index/map7.png'
 				const markers = [
 					{icon: icon1,position: [120.585294,31.299758]}, 
 					{icon: icon1,position: [121.473667,31.230525]}, 

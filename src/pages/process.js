@@ -24,49 +24,49 @@ export default function Process(){
   const videoList =[
     {
       title:'铝板切割',
-      src:'https://www.yangdong.co:443/video/%E9%93%9D%E6%9D%BF%E5%88%87%E5%89%B2.mp4'},
+      src:'https://www.yangdong.co:8443/video/%E9%93%9D%E6%9D%BF%E5%88%87%E5%89%B2.mp4'},
     {
       title:'铝卷分切',
-      src:'https://www.yangdong.co:443/video/%E5%88%86%E5%88%87.mp4'
+      src:'https://www.yangdong.co:8443/video/%E5%88%86%E5%88%87.mp4'
     },{
       title:'铝卷分条',
-      src:'https://www.yangdong.co:443/video/%E5%88%86%E6%9D%A1.mp4'
+      src:'https://www.yangdong.co:8443/video/%E5%88%86%E6%9D%A1.mp4'
     },{
       title:'机械加工-铣',
-      src:'https://www.yangdong.co:443/video/%E6%9C%BA%E6%A2%B0%E5%8A%A0%E5%B7%A5-%E9%93%A3.mp4'
+      src:'https://www.yangdong.co:8443/video/%E6%9C%BA%E6%A2%B0%E5%8A%A0%E5%B7%A5-%E9%93%A3.mp4'
     },{
       title:'激光切割',
-      src:'https://www.yangdong.co:443/video/%E6%BF%80%E5%85%89%E5%88%87%E5%89%B2.mp4'
+      src:'https://www.yangdong.co:8443/video/%E6%BF%80%E5%85%89%E5%88%87%E5%89%B2.mp4'
     },{
       title:'挤压',
-      src:'https://www.yangdong.co:443/video/%E6%8C%A4%E5%8E%8B.mp4'
+      src:'https://www.yangdong.co:8443/video/%E6%8C%A4%E5%8E%8B.mp4'
     },{
       title:'剪板',
-      src:'https://www.yangdong.co:443/video/%E5%89%AA%E6%9D%BF.mp4'
+      src:'https://www.yangdong.co:8443/video/%E5%89%AA%E6%9D%BF.mp4'
     },{
       title:'铝板分切',
-      src:'https://www.yangdong.co:443/video/%E9%93%9D%E6%9D%BF%E5%88%86%E5%88%87.mp4'
+      src:'https://www.yangdong.co:8443/video/%E9%93%9D%E6%9D%BF%E5%88%86%E5%88%87.mp4'
     },{
       title:'铝板覆膜',
-      src:'https://www.yangdong.co:443/video/%E9%93%9D%E6%9D%BF%E8%A6%86%E8%86%9C.mp4'
+      src:'https://www.yangdong.co:8443/video/%E9%93%9D%E6%9D%BF%E8%A6%86%E8%86%9C.mp4'
     },{
       title:'铝板整平',
-      src:'https://www.yangdong.co:443/video/%E9%93%9D%E6%9D%BF%E6%95%B4%E5%B9%B3.mp4'
+      src:'https://www.yangdong.co:8443/video/%E9%93%9D%E6%9D%BF%E6%95%B4%E5%B9%B3.mp4'
     },{
       title:'铝棒切割',
-      src:'https://www.yangdong.co:443/video/%E9%93%9D%E6%A3%92%E5%88%87%E5%89%B2.mp4'
+      src:'https://www.yangdong.co:8443/video/%E9%93%9D%E6%A3%92%E5%88%87%E5%89%B2.mp4'
     },{
       title:'铝件锻造',
-      src:'https://www.yangdong.co:443/video/%E9%93%9D%E4%BB%B6%E9%94%BB%E9%80%A0.mp4'
+      src:'https://www.yangdong.co:8443/video/%E9%93%9D%E4%BB%B6%E9%94%BB%E9%80%A0.mp4'
     },{
       title:'喷涂',
-      src:'https://www.yangdong.co:443/video/%E5%96%B7%E6%B6%82.mp4'
+      src:'https://www.yangdong.co:8443/video/%E5%96%B7%E6%B6%82.mp4'
     },{
       title:'水刀切割',
-      src:'https://www.yangdong.co:443/video/%E6%B0%B4%E5%88%80%E5%88%87%E5%89%B2.mp4'
+      src:'https://www.yangdong.co:8443/video/%E6%B0%B4%E5%88%80%E5%88%87%E5%89%B2.mp4'
     },{
       title:'锯切',
-      src:'https://www.yangdong.co:443/video/%E9%94%AF%E5%88%87.mp4'
+      src:'https://www.yangdong.co:8443/video/%E9%94%AF%E5%88%87.mp4'
     }
   ]
   const process4Data = [

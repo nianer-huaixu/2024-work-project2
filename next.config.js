@@ -8,7 +8,7 @@ const nextConfig = {
   output:'standalone',
   trailingSlash: true,
   images: {
-    domains: ["images.doc.ceo","https://www.yangdong.co:443"]
+    domains: ["images.doc.ceo","https://www.yangdong.co:8443"]
   },
   sassOptions:{
     includePaths:[path.join(__dirname,'styles')]

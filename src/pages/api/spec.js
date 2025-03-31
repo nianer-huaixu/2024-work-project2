@@ -7,7 +7,7 @@ const data ={
     content:[
       { 
         span:'铝板',
-        img:'inventory/ban.png',
+        img:'inventory/铝板.png',
         texture:'1050、1060、1070、1100、2A12、2024、2017、2219、LY12、LY14、3003、3A21、LF21、5052、5754、5083、5182、5A02、5A05、5A06、LF2、LF5、LF6、6061、6063、6082、7075、7050、7A04、7A09、LC4、LC9',
         label:'铝板覆膜、铝板剪板、铝板切割、纯铝板、合金铝板、亮面铝板、贴膜铝板、超硬铝板、超宽铝板、特厚铝板、铸造铝板、锻造铝板、预拉伸铝板、超平铝板、花纹铝板等',
         spec:'规格/长宽mm',
@@ -39,7 +39,7 @@ const data ={
     content:[
       { 
         span:'铝棒',
-        img:'inventory/yuanbang.png',
+        img:'inventory/铝棒.png',
         texture:'1050、1060、2A11、2A12、2A14、2A50、2024、2017、LY11、LY12、LD5、3003、3A21、LF21、5052、5083、5056、5A02、5A05、5A06、LF2、LF5、LF6、6061、6063、6082、6A02、7075、7050、7A04、7A09、LC4、LC9',
         label:'铝棒切割、纯铝棒、合金铝棒、大直径铝棒、挤压铝棒、光亮铝棒、精拉铝棒、国标铝棒、厂标铝棒、超硬铝棒、铸造铝棒、锻造铝棒等',
         spec:'规格/长度mm',
@@ -68,7 +68,7 @@ const data ={
     content:[
       {
         span:'铝卷',
-        img:'inventory/juan.png',
+        img:'inventory/铝卷.png',
         texture:'1050、1060、1100、3003、3A21、5A02、5052、5754、5083、6061',
         label:'铝卷开平、铝卷分切、纯铝卷、合金铝卷、纯铝带、合金铝带、防锈铝卷、保温铝卷、花纹铝卷、超宽铝卷等',
         spec:'规格/宽度mm',
@@ -92,7 +92,7 @@ const data ={
     content:[
       { 
         span:'铝管',
-        img:'inventory/guan.png',
+        img:'inventory/铝管.png',
         texture:'1050、1060、2A12、2024、2017、LY12、3003、3A21、LF21、5052、5083、5A02、5A05、5A06、LF2、LF5、LF6、6061、6063、6082、7075、7050、7A04、7A09、LC4、LC9',
         label:'挤压铝管、无缝铝管、锻造铝管、现货批发、切割零售、模具齐全、支持小批量、特殊规格定制等',
         spec:'规格/长度mm',
@@ -150,7 +150,7 @@ const data ={
     content:[
       { 
         span:'方棒',
-        img:'inventory/fangbang.png',
+        img:'inventory/方棒.png',
         texture:'1050、1060、1070、2A12、2024、2017、LY12、5052、5083、5A06、LF6、6061、6063、6082、7075、7050、7A04、7A09、LC4、LC9',
         label:'铝方棒、铝扁棒、铝排、现货批发、切割零售、模具齐全、支持小批量、特殊规格定制等',
         spec:'规格/长度mm',
@@ -197,7 +197,7 @@ const data ={
       },
       {
         span:'方管',
-        img:'inventory/xingcai.png',
+        img:'inventory/方管.png',
         texture:'2A12、2024、2017、LY12、3003、3A21、LF21、5052、5083、5A02、5A05、5A06、LF2、LF5、LF6、6061、6063、6082、7075、7050、7A04、7A09、LC4、LC9',
         label:'铝方管、矩形管、现货批发、切割零售、模具齐全、支持小批量、特殊规格定制等',
         spec:'规格/长度mm',
@@ -224,7 +224,7 @@ const data ={
       },
       { 
         span:'六角棒',
-        img:'inventory/liujiaobang.png',
+        img:'inventory/六角棒.png',
         texture:'1050、1060、2A11、2A12、2024、2017、LY11、LY12、5A06、LF6、6061、6063、6082、7075、7050、7A04、7A09、LC4、LC9',
         label:'六角铝棒、现货批发、切割零售、模具齐全、支持小批量、特殊规格定制等',
         spec:'规格/长度mm',
@@ -236,7 +236,7 @@ const data ={
       },
       { 
         span:'角铝',
-        img:'inventory/xingcai.png',
+        img:'inventory/角铝.png',
         texture:'2A12、2024、2017、LY12、5083、6061、6063、6082、7075、7A04、7A09、LC4、LC9',
         label:'等边角铝、不等边角铝、现货批发、切割零售、模具齐全、支持小批量、特殊规格定制等',
         spec:'规格/长度mm',
@@ -254,7 +254,7 @@ const data ={
       },
       { 
         span:'槽铝',
-        img:'inventory/xingcai.png',
+        img:'inventory/槽铝.png',
         texture:'2A12、2024、2017、LY12、5083、6061、6063、6082、7075、7A04、7A09、LC4、LC9',
         label:'槽铝、现货批发、切割零售、模具齐全、支持小批量、特殊规格定制等',
         spec:'规格/长度mm',

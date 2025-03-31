@@ -1,8 +1,11 @@
 import Link from 'next/link'
+import { Player } from 'video-react'
+import { useEffect,useRef } from 'react'
 import { store } from '../redux/store'
 import Banner from '@/components/banner'
 import Title from '@/components/title'
 import styles from "@/styles/about.module.scss"
+import "node_modules/video-react/dist/video-react.css"
 
 const {common} = store.getState()
 
@@ -42,6 +45,8 @@ function Cyc(){
   </div>
 }
 export default function About(){
+  const videoRef = useRef()
+
   const intoData = [
     {b:'130',span:'亩',p:'库存总占地面积'},
     {b:'14',span:'亿',p:'全围库存总投资额'},
@@ -50,6 +55,11 @@ export default function About(){
     {b:'300',span:'名',p:'在职销售人员300名'},
     {b:'12',span:'万吨',p:'年出货量12万吨'}
   ]
+  useEffect(() => {
+    if(videoRef?.current){
+      videoRef.current.play()
+    }
+  },[])
   return <div>
     <Banner url='about.png'/>
     <div className={styles.anchor}>
@@ -66,16 +76,17 @@ export default function About(){
         <h6>公司介绍</h6>
         <p>
           中库铝业(江苏)有限公司(简称“中库铝业”品牌)是中国铝行业一家真正意义的铝材现货库存大型企业，现有铝卷、铝板、铝棒、铝管、铝型材五大板块，各板块相互结合相互补充，精准判断市场态势，发挥“互联网+铝材”优势，积极开拓海外市场，大力发展跨境电商，在消化过剩产能的前提下提高产业链附加价值，带动铝材产业链升级、完善和发展，中库努力打造全产业链一体化商业模式。<br></br>
-          顺应现代铝材、工业制造和全球化采购发展大趋势，中库以“中库铝业ZKLY”为发展战略，将“中库铝业”作为餐慧铝材和工业应用的载体，实现企业对内与对外的全球化应用与服务。
         </p>
-        <img src={common.imgURL +'about/1-2.png'}/>
+        {/* <img src={common.imgURL +'about/1-2.png'}/> */}
         <p>
           我们的宗旨是做全国最全的铝材现货直销商，为了降低各个领域新客户的开发成本和四处找货的问题，节省采购铝材多重环节，大大提高铝材品种配备、少量生产、各种加工、快速交货的一站式服务。“中库铝业”铝材现货通过开展深入营销和服务，短短几年的时间聚集了行业内最庞大的供需用户群和最专业的技术论坛专家，成为铝材行业最有价值的营销平台和最高人气、最高水准的交流平台，得到国内外众多供应商、采购商的关注和重视。<br></br>
-          中库铝业汇集了一批长期奋战在铝商一线的英才，每天与铝厂、铝贸商和终端用户保持密切联系，确保方便能够为铝材用户提供优质的产品服务。享誉全国的现代综合性全铝服务企业，拥有“裁剪、分条、开平、切割、表面处理、机加工”6大加工平台。<br></br>
           中库铝业铝合金材料库存资源达3万余吨:常备现货:铝卷、铝板、花纹铝板、铸造铝板、锻造铝板,铝圆棒、铝六角棒、铝方棒、铝排、铝圆管、铝方管、无缝铝管、角铝、槽铝、铝型材等...
         </p>
       </div>
-      <img className={styles.intoR} src={common.imgURL +'about/1-1-1.png'}/>
+      {/* <img className={styles.intoR} src={common.imgURL +'about/1-1-1.png'}/> */}
+      <div className={styles.intoR}>
+        <Player ref={videoRef} autoplay src='https://www.yangdong.co:8443/video/中库.mp4'/>
+      </div>
     </section>
     <div className={[styles.intoF,'main'].join(' ')}>
       {intoData.map((item,i)=>{

@@ -8,6 +8,7 @@ export default function Header(props){
   // console.log(path,props,'path');
   const {common} = store.getState()
   useEffect(()=>{
+    BaiduStatistics()
     window.addEventListener('scroll',function(e){
       // 滚动条滚动高度
       const scrollTop = document.documentElement.scrollTop
@@ -18,6 +19,13 @@ export default function Header(props){
       }
     })
   },[])
+  var _hmt = _hmt || [];
+  function BaiduStatistics() {
+      var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?7be846a03ac4bafb4b100bcd1b8d4f41";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  };
   const data = [
     {label:'铝材总览',link:'/'},
     {label:'产品中心',link:'/product'},

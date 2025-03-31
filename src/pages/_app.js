@@ -17,6 +17,7 @@ export default function App({ Component, pageProps }) {
   useEffect(()=>{
     setCurPath(router.asPath)
     if(typeof document !== 'undefined'){
+      BaiduStatistics()
       EC(window, document)
     }
   },[router.asPath])
@@ -31,6 +32,14 @@ export default function App({ Component, pageProps }) {
     s.setAttribute('defer', 'defer');
     D.getElementsByTagName('head')[0].appendChild(s);
   }
+  var _hmt = _hmt || [];
+  function BaiduStatistics() {
+      var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?7be846a03ac4bafb4b100bcd1b8d4f41";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  };
+
   return (
     <Provider store={store}>
     <PersistGate persistor={persistor}>
